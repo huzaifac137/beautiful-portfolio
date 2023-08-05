@@ -1,0 +1,43 @@
+<script>
+import {socialLinks} from "../InfoData/social"
+</script>
+
+<div class="social">
+  <h2>Social Links</h2>
+  <div class="socialContainer" >
+   {#each socialLinks as Link }
+   <a href={Link.url} target="_blank" >
+   <img src={Link.icon} height="40" width="40" alt="social media icons"  />
+   </a>  
+   {/each}
+  </div>
+</div>
+
+<style>
+    .social {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        gap: 20px;
+    }
+
+    .social h2{
+        color: var(--tertiary-color);
+    }
+
+    .socialContainer{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 50%;
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+
+    @media (max-width:650px){
+        .socialContainer{
+            width: 80%;
+        }
+    }
+</style>
