@@ -19,13 +19,14 @@ import {skillsList} from "../InfoData/skills";
     .skills{
         
         width: 70%;
-        margin: 100px auto;
+        margin :100px auto;
          padding: 10px;
          display: flex;
          flex-direction: column;
          align-items: center;
          gap: 20px;
          
+        
     }
 
     .skills h2
@@ -40,17 +41,12 @@ import {skillsList} from "../InfoData/skills";
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 20px;
-        width: 100%;
-      
+        width: 100%;  
+        
         align-items: center;
         justify-items: center;
     }
 
 
-    @media (max-width:650px)
-    {
-        .skillCardContainer{
-            grid-template-columns: 1fr;
-        }
-    }
+
 </style>

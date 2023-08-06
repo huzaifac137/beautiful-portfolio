@@ -5,7 +5,7 @@
 <div class="intro">
    <div class="name">
 
-     <h3>Hey, Im  <span> {intro.name}</span> </h3>
+     <h3>Hey, Its  <span> {intro.name}</span> </h3>
      <h2>{intro.role}</h2>
      <p>{intro.description}</p>
      <a href="./Huzaifa_CV.pdf" download="Huzaifa's CV">Download CV</a>

@@ -7,7 +7,7 @@
         <div class="flip-card-front">
          
             <p class="title">{project.title}</p>
-            <p>More info</p>
+            <p class="open-more">More info</p>
         </div>
         <div class="flip-card-back">
             <div class="flip-card-tooltech">
@@ -37,6 +37,11 @@
   font-weight: 900;
   text-align: center;
   margin: 0;
+}
+
+.open-more{
+    font-size: 14px;
+    color: var(--secondary-color);
 }
 
 .desc {
