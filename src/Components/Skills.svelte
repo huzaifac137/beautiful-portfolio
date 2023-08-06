@@ -18,7 +18,7 @@ import {skillsList} from "../InfoData/skills";
 <style>
     .skills{
         
-        width: 70%;
+        width: 100%;
         margin :100px auto;
          padding: 10px;
          display: flex;
@@ -26,7 +26,6 @@ import {skillsList} from "../InfoData/skills";
          align-items: center;
          gap: 20px;
          
-        
     }
 
     .skills h2
@@ -42,7 +41,6 @@ import {skillsList} from "../InfoData/skills";
         grid-template-columns: 1fr 1fr;
         gap: 20px;
         width: 100%;  
-        
         align-items: center;
         justify-items: center;
     }
