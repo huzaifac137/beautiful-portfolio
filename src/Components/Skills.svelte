@@ -2,8 +2,11 @@
 <script>
 import SkillsCard from "./skillsCard.svelte";
 import {skillsList} from "../InfoData/skills";
+
 </script>
 
+        
+   
 <div class="skills" id="skills">
   <h2>Tech Skills</h2>
   <div class="skillCardContainer">
@@ -15,16 +18,19 @@ import {skillsList} from "../InfoData/skills";
 </div>
 </div>
 
+
 <style>
     .skills{
         
-        width: 100%;
-        margin :100px auto;
+        width: 90%;
+        margin :150px auto;
          padding: 10px;
          display: flex;
          flex-direction: column;
          align-items: center;
          gap: 20px;
+
+         animation: slideInLeft 1s ease 0s;
          
     }
 
@@ -44,6 +50,8 @@ import {skillsList} from "../InfoData/skills";
         align-items: center;
         justify-items: center;
     }
+
+
 
 
 

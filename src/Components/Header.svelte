@@ -54,6 +54,7 @@
         flex-direction: column;
         align-items: flex-start;
         
+        
     }
     .header a{
         display: none;
@@ -65,8 +66,9 @@
         align-items: flex-start;
         height: auto;
         margin-top: 16px;
-       
+        
     }
+
 
     .hamburger-open a{
         align-self: center; 
@@ -74,7 +76,7 @@
        color: var(--secondary-color);
          text-decoration: none;
          margin-top: 15px;
-        
+         animation: slideDown 0.5s ;
              }
 
     .span{
@@ -94,6 +96,16 @@
         border: none;
     }
 
+    @keyframes slideDown {
+          from{
+            transform: translateY(-50px);
+          }
+          to{
+            transform: translateY(0px);
+          }
+    }
+
 
 }
+
 </style>

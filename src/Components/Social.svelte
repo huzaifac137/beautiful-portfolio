@@ -3,7 +3,7 @@ import {socialLinks} from "../InfoData/social"
 </script>
 
 <div class="social">
-  <h2>Social Links</h2>
+
   <div class="socialContainer" >
    {#each socialLinks as Link }
    <a href={Link.url} target="_blank" >
@@ -20,6 +20,7 @@ import {socialLinks} from "../InfoData/social"
         align-items: center;
         margin-top: 20px;
         gap: 20px; 
+        margin-top: 70px;
     }
 
     .social h2{
