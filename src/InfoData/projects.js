@@ -10,7 +10,8 @@ const projects = [
    
      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" ,
      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" ,
-     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" ,
+     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/socketio/socketio-original.svg"
   ]
     },
     {
@@ -38,7 +39,8 @@ const projects = [
     
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" ,
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" ,
-    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" ,
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/socketio/socketio-original.svg"
  ]
   },
     {
@@ -56,16 +58,34 @@ const projects = [
   ]
     },
     {
-      title: "BeAnonymous (next.js)",
+      title: "BeAnonymous",
       //   live: "https://paytonpierce.dev",
       source: "https://github.com/huzaifac137/be-anonymous",
     //   image: project,
     description :"A Full-Stack web application where users can share their opinion anonymously.  Upvote , Downvote the post.  Comment on Post.  Includes real-time group chat for all users. Includes both custom auth and Google login." ,
     toolsntech : [
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" ,
-    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" ,
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/socketio/socketio-original.svg"
  ]
     },
+
+    {
+      title: "DeepDive-node",
+      //   live: "https://paytonpierce.dev",
+      source: "https://github.com/huzaifac137/be-anonymous",
+    //   image: project,
+    description :"Full-Stack app mainly focused on node.js . Used redis with custom built query function for caching , Jest and Puppeteer for automated browser testing , Travis CI for continuous integration" ,
+    toolsntech : [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" ,
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" ,
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" ,
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" ,
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" ,
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" ,
+
+ ]
+    } ,
     
 
     {
