@@ -47,8 +47,7 @@ import {skillsList} from "../InfoData/skills";
         grid-template-columns: 1fr 1fr;
         gap: 20px;
         width: 100%;  
-        align-items: center;
-        justify-items: center;
+         place-items: center;
     }
 
 
